@@ -82,10 +82,17 @@ svg {
 #logo {
   width: 140px;
   height: 120px;
+  overflow: visible;
 }
 
 #logo .st1 {
   display: none;
+  transform-origin: 70px 70px;
+  transition: transform .2s ease-in-out;
+}
+
+#logo:hover .st1 {
+  transform: scale(1.1);
 }
 
 .corgi {
