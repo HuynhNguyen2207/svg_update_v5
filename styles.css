@@ -27,10 +27,21 @@ a {
   text-decoration: none;
   color: #39add1;
   font-weight: 700;
+  transition: color .5s;
+}
+
+a svg {
+  margin-right: 5px;
+  transition: all .5s;
 }
 
 a:hover {
   color: #111;
+}
+
+a:hover svg {
+  padding-right: 10px;
+  fill: #111;
 }
 
 header {
@@ -60,4 +71,8 @@ footer {
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
+}
+
+svg {
+  fill: #39add1;;
 }
