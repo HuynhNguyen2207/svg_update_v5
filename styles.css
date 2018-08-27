@@ -76,3 +76,24 @@ footer {
 svg {
   fill: #39add1;;
 }
+
+#logo {
+  width: 140px;
+  height: 120px;
+}
+
+#logo .st1 {
+  display: none;
+}
+
+@media (min-width: 425px) {
+
+  h1 {
+    display: none;
+  }
+
+  #logo .st1 {
+    display: block;
+  }
+
+}
